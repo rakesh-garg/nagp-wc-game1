@@ -4,7 +4,7 @@ import { outsideGrid } from '../game-engine/gameboard-grid.util';
 import { Snake } from '../game-engine/snake';
 
 @Component({
-  selector: 'app-game-board',
+  selector: 'nagp-snake-game',
   templateUrl: './game-board.component.html',
   styleUrls: ['./game-board.component.scss']
 })

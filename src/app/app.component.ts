@@ -4,15 +4,14 @@ import { GameBoardComponent } from './snake-game/game-board.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
 
   title = 'SnakeGame';
   constructor(private injector: Injector) {
     const el = createCustomElement(GameBoardComponent, { injector });
-    customElements.define('app-game-board', el);
+    customElements.define('nagp-snake-game', el);
   }
   ngDoBootstrap() {}
 }
