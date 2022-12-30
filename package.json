@@ -8,8 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:component": "ng build --output-hashing none && node build-component.js",
-    "deploy-github": "ng deploy --base-href=/Angular-Snake-Game/"
+    "build:component": "ng build --output-hashing none && node build-component.js"
   },
   "private": true,
   "dependencies": {
