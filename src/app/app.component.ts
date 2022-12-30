@@ -1,6 +1,6 @@
 import { Component, Injector } from '@angular/core';
 import { createCustomElement } from '@angular/elements';
-import { GameBoardComponent } from './game-board/game-board.component';
+import { GameBoardComponent } from './snake-game/game-board.component';
 
 @Component({
   selector: 'app-root',

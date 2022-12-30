@@ -10,7 +10,7 @@ build = async () =>{
       ];
 
       await fs.ensureDir('game');
-      await concat(files, 'game/snack-game.js');
+      await concat(files, 'game/snake-game.js');
 }
 
 build();

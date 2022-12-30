@@ -1,8 +1,5 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": false
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -11,9 +8,6 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
-        },
-        "@schematics/angular:application": {
-          "strict": true
         }
       },
       "root": "",
@@ -124,13 +118,11 @@
               "devServerTarget": "SnakeGame:serve:production"
             }
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {}
         }
       }
     }
   },
-  "defaultProject": "SnakeGame"
+  "cli": {
+    "analytics": false
+  }
 }
