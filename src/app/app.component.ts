@@ -3,7 +3,7 @@ import { createCustomElement } from '@angular/elements';
 import { GameBoardComponent } from './snake-game/game-board.component';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-snake-game',
   templateUrl: './app.component.html'
 })
 export class AppComponent {
