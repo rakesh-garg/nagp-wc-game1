@@ -9,9 +9,9 @@ import { GameBoardComponent } from './snake-game/game-board.component';
 export class AppComponent {
 
   title = 'SnakeGame';
-  constructor(private injector: Injector) {
-    const el = createCustomElement(GameBoardComponent, { injector });
-    customElements.define('nagp-snake-game', el);
-  }
-  ngDoBootstrap() {}
+  // constructor(private injector: Injector) {
+  //   const el = createCustomElement(GameBoardComponent, { injector });
+  //   customElements.define('nagp-snake-game', el);
+  // }
+  // ngDoBootstrap() {}
 }

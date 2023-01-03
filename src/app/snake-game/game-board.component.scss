@@ -5,26 +5,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --background-color: #282846;
-  --board-color: #d8ebe4;
-  --snake-color: #fed049;
-  --food-color: #007580;
-
-  --dpad-radius: 17%;
-  --dpad-radius-in: 20%;
-  --dpad-fg: #ddd;
-  --dpad-fg-hover: #eee;
-  --dpad-bg: #fff;
-  --arrowcolor: #aaa;
-  --tri-sml-a: 13px;
-  --tri-sml-b: 19px;
-  --tri-lrg-a: 13px;
-  --tri-lrg-b: 19px;
-  --dpad-arrow-shift: 5px;
-  --dpad-arrow-move: 35%;
-}
-
 body {
   height: 100%;
   width: 100%;
